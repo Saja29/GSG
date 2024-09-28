@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  width: 100%;
+  gap: 2.5vh;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(103, 104, 104);
+
+}
+
+.middle {
+  width: 90%;
+  height: 82vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  gap: 5%;
+}
+
+.middle .right {
+  width: 65%;
+ 
+  height: 80vh;
+  display: flex;
+ gap: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.main .right .first{
+  display: flex;
+  flex-direction: column;
+}
+.middle .right .bottom{
+  display: flex;
+  align-content:start;
+  justify-content:space-between;
+  flex-wrap: wrap; 
+  width:100%;
+  height: 40vh;
+}
+
+
+.middle .right .bottom div{
+ 
+  width :19%;
+  height: 44%;
+  margin-bottom: 1%;
+margin-top: 0;
+
+}
+
+.middle .right .bottom div img{
+  background-color: rgb(153, 151, 151);
+  width :100%;
+  height:55%;
+ 
+
+
+}
+.middle .right .bottom div p{
+/* margin-bottom: 5%; */
+margin-top: 5%;
+width :100%;
+height: 15%;
+background-color: gray;
+
+}
+
+#colored{
+  background-color: rgb(162, 159, 159);
+  border: hidden;
+}
+.middle .right .top{
+  background-color: rgb(162, 159, 159);
+  width:100%;
+  height:33vh
+ }
+ .middle .right .nav{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  height: 5vh;
+  row-gap:10px;
+
+ }
+ 
+ .nav ul{
+  padding: 0;
+ }
+ 
+ .middle .right .nav  ul button{
+  width: 100px;
+  height: 5vh;
+  border: hidden;
+ }
+ #arrow{
+  width: 30px;
+  height: 5vh;
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+ }
+
+.middle .left {
+  width: 30%;
+  height: 76vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3vh;
+
+}
+
+
+.middle .left .top {
+  height: 5vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.left .top button {
+  width: 38px;
+  height: 3vh;
+  background-color: gray;
+
+
+}
+
+.left .middle {
+  background-color: gray;
+  height: 40vh;
+  width: 100%;
+  margin: 0;
+}
+
+.left .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  height: 45vh;
+}
+
+.left .bottom .part1 {
+  height: 5vh;
+  width: 100%;
+  background-color: gray;
+}
+
+.left .bottom .part2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 45vh;
+ 
+  justify-content: space-evenly;
+ 
+}
+.part2 div{
+width: 100%;
+height: 19vh;
+display: flex;
+justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.part2 div .paragraph{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+width: 70%;
+height: 16vh; 
+
+
+}
+div img {
+  width: 29%;
+  height: 16vh;
+  background-color: black;
+}
+
+.paragraph p {
+  
+  width: 100%;
+  height: 16px; 
+  background-color: rgb(162, 159, 159);
+}
+div .full-line{
+  width: 100%;
+  height: 10px; 
+  background-color:rgb(162, 159, 159);
+}
+
+.part2 hr {
+  height: .5vh;
+  width: 100%;
+  background-color: gray;
+}
+
+.bottom {
+  justify-self: flex-end;
+}
+
+.bottom footer {
+  background-color: rgb(224, 222, 222);
+  height: 5.5vh;
+  width: 100%;
+
+  bottom: 0;
+
+}
